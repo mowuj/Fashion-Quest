@@ -14,3 +14,17 @@
     background-color: #ADC2D7;
     margin: 0;
 }
+.down{
+    background-image:url(./images/Iphone\ 14\ pro\ 1.png) ;
+    
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ct{
+    background-color: #EDEDED;
+    padding: 40px;
+    border: none;
+    border-radius: 30px;
+}
