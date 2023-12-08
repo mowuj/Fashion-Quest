@@ -1,3 +1,24 @@
 .slider{
     background-image:linear-gradient(#FBD0FA,#ffff,#7c83fe) ;
 }
+.left-img{
+    margin:0,0,0, -50px;
+}
+.left-txt{
+    margin: 0;
+}
+.banner-right{
+    background-color: #EDEDED;
+}
+.banner-down{
+    background-color: #ADC2D7;
+    margin: 0;
+}
+.down{
+    background-image:url(./images/Iphone\ 14\ pro\ 1.png) ;
+    
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
