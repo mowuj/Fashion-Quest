@@ -22,6 +22,17 @@
     background-position: center;
     background-size: cover;
 }
+.sale{
+    background-color: #958AD4;
+}
+
+.left-half-image img,
+.right-half-image img {
+    width: 100%;
+    clip-path: none;
+    transform: none;
+}
+
 .ct{
     background-color: #EDEDED;
     padding: 40px;
@@ -35,4 +46,38 @@
 }
 .footer-logo .list-group-item {
     margin-right: 10px; 
+}
+
+/* Media query */
+@media (min-width: 768px) {
+
+    .left-half-image,
+    .right-half-image {
+        overflow: hidden;
+    }
+
+    .left-half-image img {
+        width: 200%;
+        clip-path: inset(0 0 0 50%);
+        transform: translateX(-50%);
+    }
+
+    .right-half-image img {
+        width: 200%;
+        clip-path: inset(0 50% 0 0);
+        transform: translateX(50%);
+    }
+}
+
+@media (max-width: 767px) {
+    .left-half-image img {
+        clip-path: inset(40% 0 0 0);
+        transform: translateY(-44%);
+
+    }
+
+    .right-half-image img {
+        clip-path: inset(0 20% 50% 0);
+        transform: translate(30%, 54%);
+    }
 }
