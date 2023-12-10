@@ -1,6 +1,13 @@
-
+.navbar{
+    background-color: #1A187A;
+}
 .slider{
     background-image:linear-gradient(#FBD0FA,#ffff,#7c83fe) ;
+}
+.slider-btn{
+    background-color: #1A187A;
+    color: #ffff;
+    
 }
 .left-img{
     margin:0,0,0, -50px;
@@ -28,14 +35,8 @@
     background-color: #958AD4;
 }
 
-.left-half-image img,
-.right-half-image img {
-    width: 100%;
-    clip-path: none;
-    transform: none;
-}
 
-.ct{
+.category{
     background-color: #EDEDED;
     padding: 40px;
     border: none;
