@@ -12,37 +12,54 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
-
 </head>
 <body>
     <!-- navbar section  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar bg-primary navbar-expand-lg">
+        <div class="container-fluid d-flex justify-content-around align-items-center">
+            <a class="navbar-brand ms-5" href="#">
+                    <img src="./images/Group 2.png" alt="Bootstrap" width="200" height="40">
+                
+            </a>
+            <div class="d-none d-md-block">
+                <form class="d-flex ms-5" role="search">
+                <input class="form-control ms-5 px-3" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Hidden brand</a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+    
+            <div class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-3">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
                     </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-user"></i></a>
+                    </li>
+                    
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
+
+
+
+
+
+
+
     <!-- slider section  -->
     <section class="slider">
 
@@ -253,14 +270,14 @@
     <div class="sale py-3">
         <div class="container-fluid">
             <div class="row align-items-start">
-                <!-- Left Image Section -->
+                <!-- Left Image  -->
                 <div class="col-md-4 order-md-1 mb-3 mb-md-0">
                     <div class="left-half-image">
                         <img src="./images/image 19.png" class="img-fluid w-100" alt="Half Image">
                     </div>
                 </div>
     
-                <!-- Center Text Section -->
+                <!-- Center Text -->
                 <div class="col-md-4 text-center order-md-2">
                     <h1>11.11 Sale</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, quae?Lorem ipsum dolor sit amet
@@ -268,7 +285,7 @@
                         adipisicing elit. Maiores, repellat.</p>
                 </div>
     
-                <!-- Right Image Section -->
+                <!-- Right Image-->
                 <div class="col-md-4 order-md-3">
                     <div class="right-half-image">
                         <img src="./images/image 19.png" class="img-fluid w-100" alt="Half Image">
